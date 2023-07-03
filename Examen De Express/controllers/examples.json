@@ -1,0 +1,54 @@
+{
+  "cats": [
+    {
+      "name": "Fifi",
+      "age": "2 months",
+      "color": ["Black", "White"],
+      "accesories": []
+    },
+    {
+      "name": "Bubbles",
+      "age": "1 year",
+      "color": ["Gray", "Black"],
+      "accesories": []
+    }
+  ],
+
+  "accesories": [
+    {
+      "id": 1,
+      "color": "Red",
+      "type": "Necklace",
+      "popularity": "average",
+      "description": "Cool necklace that will make your cat unique!"
+    },
+    {
+      "id": 2,
+      "color": "White",
+      "type": "Bracelet",
+      "popularity": "low",
+      "description": "A simple bracelet for your kitty's legs"
+    },
+    {
+      "id": 3,
+      "color": "Blue",
+      "type": "Sweater",
+      "popularity": "average",
+      "description": "A warm sweater that will warm up you kitty during winter days"
+    },
+    {
+      "id": 4,
+      "color": "Red",
+      "type": "Bun",
+      "popularity": "high",
+      "description": "This bun will make your cat the most cute one in town!"
+    },
+    {
+      "id": 5,
+      "color": "Black",
+      "type": "Shoes",
+      "popularity": "low",
+      "description": "These wonderful pair of shoes will make your kitty the most elegant"
+    }
+  ]
+}
