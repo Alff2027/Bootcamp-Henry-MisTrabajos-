@@ -1,0 +1,54 @@
+{
+  "bands": [
+   {
+    "id": 1,
+    "name": "The Beatles",
+    "origin": "Liverpool, Reino Unido",
+    "functionDate": "09-10-2022",
+    "description": "The Beatles, also known in the Hispanic world as los Beatles, was a British rock band formed in Liverpool during the 1960s.",
+    "members": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"],
+    "image": "https://media.ambito.com/p/e90015ca4ed155874fcefa55e6ac539c/adjuntos/239/imagenes/039/981/0039981805/the-beatleswebp.png",
+    "tickets": 40000
+   },
+   {
+    "id": 2,
+    "name": "Queen",
+    "origin": "Londres, Reino Unido",
+    "functionDate": "10-10-2022",
+    "description": "Queen is a British rock band founded in 1970 by its singer, Freddie Mercury, Brian May on guitar, Roger Taylor on drums and John Deacon on bass. Despite the absence of some of its members, the band was active until 2009.",
+    "members": ["Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"],
+    "image": "https://static.wikia.nocookie.net/queen/images/c/c6/2775afb41ca146300103ce245de04c12.jpg/revision/latest?cb=20180708184856&path-prefix=es",
+    "tickets": 23000
+   },
+   {
+    "id": 3,
+    "name": "Soda Stereo",
+    "origin": "Buenos Aires, Argentina",
+    "functionDate": "08-10-2022",
+    "description": "Soda Stereo is an Argentine alternative rock band formed in Buenos Aires in 1982 by Gustavo Cerati (vocals, guitar), Héctor < Zeta > Bosio (bass) and Carlos Alberto Ficicchia < Charly Alberti > (drums). Widely considered by specialized critics as one of the most important, popular and predominant rock bands in Spanish of all time and a legend of Latin American music.",
+    "members": ["Gustavo Cerati", "Héctor Bosio", "Carlos Alberto Ficicchia"],
+    "image": "https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/UAHNHNLVJVEPPC2HK3JW5IEIV4.jpg",
+    "tickets": 10000
+   },
+   {
+    "id": 4,
+    "name": "Cuarteto De Nos",
+    "origin": "Montevideo, Uruguay",
+    "functionDate": "11-10-2022",
+    "description": "El Cuarteto de Nos is a Uruguayan alternative rock and rap rock band with pop, electronic and fusion elements of various Latin American genres, formed in 1980 in Montevideo.",
+    "members": ["Roberto Musso", "Santiago Tavella", "Álvaro Pintos", "Gustavo Antuña", "Santiago Marrero"],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/LaBanda.png",
+    "tickets": 4000
+   },
+   {
+    "id": 5,
+    "name": "Linkin Park",
+    "origin": "Agoura Hills, California, Estados Unidos",
+    "functionDate": "24-10-2022",
+    "description": "Linkin Park is an American alternative rock band from Agoura Hills, California formed in 1996. Made up of Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon and Chester Bennington, the latter as lead vocals.",
+    "members": ["Mike Shinoda", "Dave Farrell", "Joe Hahn", "Brad Delson", "Rob Bourdon", "Chester Bennington"],
+    "image": "https://www.linkinpark.com/sites/g/files/g2000008491/files/84ijjkkdn2los98.jpg?cache",
+    "tickets": 24000
+   }
+  ]
+ }
