@@ -1,0 +1,49 @@
+{
+  "name": "senior-checkpoint",
+  "version": "1.0.0",
+  "author": "Henry",
+  "scripts": {
+    "test": "mocha ./tests --recursive --watch --require @babel/register ",
+    "react-test": "mocha ./tests/01-react --watch --require @babel/register ",
+    "server-test": "mocha ./tests/02-backend --watch --require @babel/register ",
+    "js-test": "mocha ./tests/03-js --watch --require @babel/register ",
+    "extra-credit": "mocha ./tests/04-extra-credit --watch --require @babel/register ",
+    "db-init": "pg-init checkpoint_senior",
+    "postinstall": "npm run db-init",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/register": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "chai": "^4.2.0",
+    "chai-properties": "^1.4.0",
+    "chai-things": "^0.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-fullstack": "^6.0.0",
+    "eslint-plugin-react": "^7.19.0",
+    "faker": "^4.1.0",
+    "fs-misc": "^2.0.0",
+    "mocha": "^7.1.2",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0",
+    "supertest": "^4.0.2",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "express": "^4.17.1",
+    "pg": "^8.0.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "sequelize": "^5.21.7",
+    "webpack": "^4.43.0"
+  }
+}
